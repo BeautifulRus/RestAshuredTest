@@ -2,13 +2,13 @@ public class Pojo {
 
         String name;
         String type;
-        String exotic;
+        boolean exotic;
 
 
 
         public Pojo(){}
 
-    public Pojo(String name, String type, String exotic) {
+    public Pojo(String name, String type, boolean exotic) {
         this.name = name;
         this.type = type;
         this.exotic = exotic;
@@ -22,7 +22,7 @@ public class Pojo {
         return type;
     }
 
-    public String getExotic() {
+    public boolean getExotic() {
         return exotic;
     }
 }
